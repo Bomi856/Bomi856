@@ -1,0 +1,48 @@
+js
+
+const rock = "0"
+const paper = "1";
+const scissors = "2";
+
+
+console.log("         Rock, Paper, Scissors        ");
+playerPicked = "";
+computerPicked = Math.floor(Math.random()* 3);
+
+if(playerPicked == 0 && computerPicked == 0){
+  console.log("Player Picked: Rock")
+  console.log("Computer Picked: Rock")
+  console.log("It's a Tie!")
+}else if(playerPicked == 0 && computerPicked == 1){
+  console.log("Player Picked: Rock")
+  console.log("Computer Picked: Paper")
+  console.log("Player Wins!");
+}else if(playerPicked == 0 && computerPicked == 2){
+  console.log("Player Picked:Rock")
+  console.log("Computer Picked: Scissors")
+  console.log("Player Wins!");
+}else if(playerPicked == 1 && computerPicked == 0){
+  console.log("Player Picked: Paper")
+  console.log("Computer Picked: Rock")
+  console.log("Player Wins!")
+}else if(playerPicked == 1 && computerPicked == 1){
+  console.log("Player Picked: Paper")
+  console.log("Computer Picked: Paper")
+  console.log("It's a Tie!");
+}else if(playerPicked == 1 && computerPicked == 2){
+  console.log("Player Picked: Paper");
+  console.log("Computer Picked: Scissors")
+  console.log("You Lose!");
+}else if(playerPicked == 2 && computerPicked == 0){
+  console.log("PlayerPicked: Scissors")
+  console.log("Computer Picked: Rock");
+  console.log("Computer Wins!")
+}else if(playerPicked == 2 && computerPicked == 1){
+  console.log("Player Picked: Paper")
+  console.log(" Computer Picked: Scissors");
+  console.log("Computer Wins!")
+}else if(playerPicked == 2 && computerPicked == 2){
+  console.log("Player Picked: Scissors")
+  console.log("Computer Picked: Scissors")
+  console.log("It's a Tie!");
+}
